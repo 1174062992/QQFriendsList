@@ -1,0 +1,4 @@
+platform :ios,"8.0"
+target "QQ好友列表实现" do 
+pod 'Masonry' 
+end

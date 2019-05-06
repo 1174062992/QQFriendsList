@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC7DB0A228077F100A669AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB09228077F100A669AF /* AppDelegate.m */; };
+		3EC7DB12228077F400A669AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7DB11228077F400A669AF /* Assets.xcassets */; };
+		3EC7DB18228077F400A669AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB17228077F400A669AF /* main.m */; };
+		3EC7DB22228077F400A669AF /* QQ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB21228077F400A669AF /* QQ______Tests.m */; };
+		3EC7DB2D228077F400A669AF /* QQ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB2C228077F400A669AF /* QQ______UITests.m */; };
+		3EC7DB4322808CD600A669AF /* UINavigationBar+CJHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB4222808CD600A669AF /* UINavigationBar+CJHeight.m */; };
+		3EC7DB492280978300A669AF /* TemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB482280978300A669AF /* TemListViewController.m */; };
+		3EC7DB4E22809CB200A669AF /* UIFont+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7DB4D22809CB200A669AF /* UIFont+runtime.m */; };
+		D216FDEACB3F8499892ECB1B /* libPods-QQ好友列表实现.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F143D465C958479B48E494 /* libPods-QQ好友列表实现.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EC7DB1E228077F400A669AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC7DAFD228077F100A669AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC7DB04228077F100A669AF;
+			remoteInfo = "QQ好友列表实现";
+		};
+		3EC7DB29228077F400A669AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC7DAFD228077F100A669AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC7DB04228077F100A669AF;
+			remoteInfo = "QQ好友列表实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A06B292DC737626F75384F8 /* Pods-QQ好友列表实现.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ好友列表实现.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQ好友列表实现/Pods-QQ好友列表实现.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC7DB05228077F100A669AF /* QQ好友列表实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ好友列表实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC7DB08228077F100A669AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EC7DB09228077F100A669AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EC7DB11228077F400A669AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC7DB16228077F400A669AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC7DB17228077F400A669AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EC7DB1D228077F400A669AF /* QQ好友列表实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ好友列表实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC7DB21228077F400A669AF /* QQ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ______Tests.m"; sourceTree = "<group>"; };
+		3EC7DB23228077F400A669AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC7DB28228077F400A669AF /* QQ好友列表实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ好友列表实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC7DB2C228077F400A669AF /* QQ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ______UITests.m"; sourceTree = "<group>"; };
+		3EC7DB2E228077F400A669AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC7DB3A22807AEB00A669AF /* TemListPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemListPrefixHeader.pch; sourceTree = "<group>"; };
+		3EC7DB4122808CD600A669AF /* UINavigationBar+CJHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CJHeight.h"; sourceTree = "<group>"; };
+		3EC7DB4222808CD600A669AF /* UINavigationBar+CJHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CJHeight.m"; sourceTree = "<group>"; };
+		3EC7DB472280978300A669AF /* TemListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemListViewController.h; sourceTree = "<group>"; };
+		3EC7DB482280978300A669AF /* TemListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemListViewController.m; sourceTree = "<group>"; };
+		3EC7DB4C22809CB200A669AF /* UIFont+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+runtime.h"; sourceTree = "<group>"; };
+		3EC7DB4D22809CB200A669AF /* UIFont+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+runtime.m"; sourceTree = "<group>"; };
+		ACB1E08EB207005C8BCCE31E /* Pods-QQ好友列表实现.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQ好友列表实现.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQ好友列表实现/Pods-QQ好友列表实现.release.xcconfig"; sourceTree = "<group>"; };
+		E0F143D465C958479B48E494 /* libPods-QQ好友列表实现.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQ好友列表实现.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC7DB02228077F100A669AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D216FDEACB3F8499892ECB1B /* libPods-QQ好友列表实现.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB1A228077F400A669AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB25228077F400A669AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE238F7A301D08BBE7E2D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A06B292DC737626F75384F8 /* Pods-QQ好友列表实现.debug.xcconfig */,
+				ACB1E08EB207005C8BCCE31E /* Pods-QQ好友列表实现.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EC7DAFC228077F100A669AF = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB07228077F100A669AF /* QQ好友列表实现 */,
+				3EC7DB20228077F400A669AF /* QQ好友列表实现Tests */,
+				3EC7DB2B228077F400A669AF /* QQ好友列表实现UITests */,
+				3EC7DB06228077F100A669AF /* Products */,
+				0EE238F7A301D08BBE7E2D44 /* Pods */,
+				F9B00650293CB17167A0AA9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC7DB06228077F100A669AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB05228077F100A669AF /* QQ好友列表实现.app */,
+				3EC7DB1D228077F400A669AF /* QQ好友列表实现Tests.xctest */,
+				3EC7DB28228077F400A669AF /* QQ好友列表实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC7DB07228077F100A669AF /* QQ好友列表实现 */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB08228077F100A669AF /* AppDelegate.h */,
+				3EC7DB09228077F100A669AF /* AppDelegate.m */,
+				3EC7DB472280978300A669AF /* TemListViewController.h */,
+				3EC7DB482280978300A669AF /* TemListViewController.m */,
+				3EC7DB11228077F400A669AF /* Assets.xcassets */,
+				3EC7DB16228077F400A669AF /* Info.plist */,
+				3EC7DB4A2280997200A669AF /* Category */,
+				3EC7DB4B228099D600A669AF /* Configuration */,
+			);
+			path = "QQ好友列表实现";
+			sourceTree = "<group>";
+		};
+		3EC7DB20228077F400A669AF /* QQ好友列表实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB21228077F400A669AF /* QQ______Tests.m */,
+				3EC7DB23228077F400A669AF /* Info.plist */,
+			);
+			path = "QQ好友列表实现Tests";
+			sourceTree = "<group>";
+		};
+		3EC7DB2B228077F400A669AF /* QQ好友列表实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB2C228077F400A669AF /* QQ______UITests.m */,
+				3EC7DB2E228077F400A669AF /* Info.plist */,
+			);
+			path = "QQ好友列表实现UITests";
+			sourceTree = "<group>";
+		};
+		3EC7DB4A2280997200A669AF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB4122808CD600A669AF /* UINavigationBar+CJHeight.h */,
+				3EC7DB4222808CD600A669AF /* UINavigationBar+CJHeight.m */,
+				3EC7DB4C22809CB200A669AF /* UIFont+runtime.h */,
+				3EC7DB4D22809CB200A669AF /* UIFont+runtime.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3EC7DB4B228099D600A669AF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7DB17228077F400A669AF /* main.m */,
+				3EC7DB3A22807AEB00A669AF /* TemListPrefixHeader.pch */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F9B00650293CB17167A0AA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F143D465C958479B48E494 /* libPods-QQ好友列表实现.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC7DB04228077F100A669AF /* QQ好友列表实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC7DB31228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现" */;
+			buildPhases = (
+				93765265F02E4EF3AB20D56F /* [CP] Check Pods Manifest.lock */,
+				3EC7DB01228077F100A669AF /* Sources */,
+				3EC7DB02228077F100A669AF /* Frameworks */,
+				3EC7DB03228077F100A669AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ好友列表实现";
+			productName = "QQ好友列表实现";
+			productReference = 3EC7DB05228077F100A669AF /* QQ好友列表实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EC7DB1C228077F400A669AF /* QQ好友列表实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC7DB34228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现Tests" */;
+			buildPhases = (
+				3EC7DB19228077F400A669AF /* Sources */,
+				3EC7DB1A228077F400A669AF /* Frameworks */,
+				3EC7DB1B228077F400A669AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC7DB1F228077F400A669AF /* PBXTargetDependency */,
+			);
+			name = "QQ好友列表实现Tests";
+			productName = "QQ好友列表实现Tests";
+			productReference = 3EC7DB1D228077F400A669AF /* QQ好友列表实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EC7DB27228077F400A669AF /* QQ好友列表实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC7DB37228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现UITests" */;
+			buildPhases = (
+				3EC7DB24228077F400A669AF /* Sources */,
+				3EC7DB25228077F400A669AF /* Frameworks */,
+				3EC7DB26228077F400A669AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC7DB2A228077F400A669AF /* PBXTargetDependency */,
+			);
+			name = "QQ好友列表实现UITests";
+			productName = "QQ好友列表实现UITests";
+			productReference = 3EC7DB28228077F400A669AF /* QQ好友列表实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC7DAFD228077F100A669AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "曹记";
+				TargetAttributes = {
+					3EC7DB04228077F100A669AF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3EC7DB1C228077F400A669AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3EC7DB04228077F100A669AF;
+					};
+					3EC7DB27228077F400A669AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3EC7DB04228077F100A669AF;
+					};
+				};
+			};
+			buildConfigurationList = 3EC7DB00228077F100A669AF /* Build configuration list for PBXProject "QQ好友列表实现" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC7DAFC228077F100A669AF;
+			productRefGroup = 3EC7DB06228077F100A669AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC7DB04228077F100A669AF /* QQ好友列表实现 */,
+				3EC7DB1C228077F400A669AF /* QQ好友列表实现Tests */,
+				3EC7DB27228077F400A669AF /* QQ好友列表实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC7DB03228077F100A669AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7DB12228077F400A669AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB1B228077F400A669AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB26228077F400A669AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93765265F02E4EF3AB20D56F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQ好友列表实现-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC7DB01228077F100A669AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7DB4322808CD600A669AF /* UINavigationBar+CJHeight.m in Sources */,
+				3EC7DB18228077F400A669AF /* main.m in Sources */,
+				3EC7DB0A228077F100A669AF /* AppDelegate.m in Sources */,
+				3EC7DB4E22809CB200A669AF /* UIFont+runtime.m in Sources */,
+				3EC7DB492280978300A669AF /* TemListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB19228077F400A669AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7DB22228077F400A669AF /* QQ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC7DB24228077F400A669AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7DB2D228077F400A669AF /* QQ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EC7DB1F228077F400A669AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC7DB04228077F100A669AF /* QQ好友列表实现 */;
+			targetProxy = 3EC7DB1E228077F400A669AF /* PBXContainerItemProxy */;
+		};
+		3EC7DB2A228077F400A669AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC7DB04228077F100A669AF /* QQ好友列表实现 */;
+			targetProxy = 3EC7DB29228077F400A669AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EC7DB2F228077F400A669AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EC7DB30228077F400A669AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EC7DB32228077F400A669AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A06B292DC737626F75384F8 /* Pods-QQ好友列表实现.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QQ好友列表实现/Configuration/TemListPrefixHeader.pch";
+				INFOPLIST_FILE = "QQ好友列表实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EC7DB33228077F400A669AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB1E08EB207005C8BCCE31E /* Pods-QQ好友列表实现.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T94Q6EVP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QQ好友列表实现/Configuration/TemListPrefixHeader.pch";
+				INFOPLIST_FILE = "QQ好友列表实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EC7DB35228077F400A669AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ好友列表实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ好友列表实现.app/QQ好友列表实现";
+			};
+			name = Debug;
+		};
+		3EC7DB36228077F400A669AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ好友列表实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ好友列表实现.app/QQ好友列表实现";
+			};
+			name = Release;
+		};
+		3EC7DB38228077F400A669AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ好友列表实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QQ好友列表实现";
+			};
+			name = Debug;
+		};
+		3EC7DB39228077F400A669AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QQ好友列表实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.QQ------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QQ好友列表实现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC7DB00228077F100A669AF /* Build configuration list for PBXProject "QQ好友列表实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7DB2F228077F400A669AF /* Debug */,
+				3EC7DB30228077F400A669AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC7DB31228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7DB32228077F400A669AF /* Debug */,
+				3EC7DB33228077F400A669AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC7DB34228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7DB35228077F400A669AF /* Debug */,
+				3EC7DB36228077F400A669AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC7DB37228077F400A669AF /* Build configuration list for PBXNativeTarget "QQ好友列表实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7DB38228077F400A669AF /* Debug */,
+				3EC7DB39228077F400A669AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC7DAFD228077F100A669AF /* Project object */;
+}
